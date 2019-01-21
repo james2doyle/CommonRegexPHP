@@ -1,0 +1,44 @@
+{
+    "name": "james2doyle/CommonRegexPHP",
+    "description": "Find a lot of kinds of common information in a string",
+    "version": "1.0.0",
+    "keywords": [
+        "common",
+        "regex",
+        "dates",
+        "times",
+        "phones",
+        "links",
+        "emails",
+        "IPv4",
+        "IPv6",
+        "hexColors",
+        "acronyms",
+        "money",
+        "percentages",
+        "creditCards",
+        "addresses"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/james2doyle/CommonRegexPHP",
+    "authors": [
+        {
+            "name": "james2doyle",
+            "email": "james2doyle@gmail.com"
+        }
+    ],
+    "scripts": {
+        "test": [
+            "./vendor/bin/phpunit"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "james2doyle\\": "src/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^7.1"
+    }
+}
