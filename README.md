@@ -15,7 +15,7 @@ Usage
 ======
 
 ```
-composer require james2doyle/CommonRegexPHP
+composer require james2doyle/common-regex-php
 ```
 
 Then somewhere in the code:
