@@ -36,6 +36,14 @@ $results = $parse('See you at 12:00AM on March 22nd 2018');
 $results = (new CommonRegexPHP)('See you at 12:00AM on March 22nd 2018');
 ```
 
+Running Tests
+===============
+
+```
+composer install
+composer run test
+```
+
 CommonRegex Ports
 ==================
 There are CommonRegex ports for other languages, see [here](https://github.com/madisonmay/CommonRegex/#commonregex-ports "CommonRegex ports")
